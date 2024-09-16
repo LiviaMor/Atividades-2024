@@ -1,0 +1,41 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2024
+Var
+cont, vinicial, p , n :real
+I, x : logico
+
+
+Inicio
+ Escreval("digite contin")
+ Leia (cont)
+ Escreval ( "digite o valor inicial")
+ Leia (vinicial)
+ Escreval ("digite o valorN")
+ Leia (n)
+ Escreval ("Digite o valorP")
+ Leia (p)
+
+
+-x <- falso
+se (cont >= vinicial+p) e nao(n<p) entao
+x <- verdadeiro
+escreval("condI", x)
+fimse
+-x<- falso
+se (cont< vinicial) ou ( n<p) entao
+x <- verdadeiro
+escreval("condII", x)
+fimse
+-x <- falso
+se (cont > vinicial+ n) entao
+x <- verdadeiro
+escreval("condIII", x)
+fimse
+Fimalgoritmo
+
+
+
